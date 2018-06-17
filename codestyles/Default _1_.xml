@@ -1,0 +1,19 @@
+<code_scheme name="Default (1)">
+  <option name="LINE_SEPARATOR" value="&#10;" />
+  <option name="RIGHT_MARGIN" value="100" />
+  <ClojureCodeStyleSettings>{
+  :antizer.reagent/decorate-field :only-indent
+  :clojure.core/completing :only-indent
+  :clojure.core/defmulti :only-indent
+  :clojure.core/update 1
+  :pintu.utils.key/on-enter :only-indent
+  :taoensso.encore/assoc-some :only-indent
+  :taoensso.encore/if-lets :only-indent
+  :taoensso.encore/when-let :only-indent
+  :taoensso.encore/when-lets :only-indent
+  :vogelsang.electron.core/on-ipc :only-indent
+}</ClojureCodeStyleSettings>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+</code_scheme>

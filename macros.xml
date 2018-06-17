@@ -1,0 +1,19 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Kill Backward">
+      <action id="EditorCodeBlockStartWithSelection" />
+      <action id="EditorDelete" />
+    </macro>
+    <macro name="Kill Forward">
+      <action id="EditorCodeBlockEndWithSelection" />
+      <action id="EditorDelete" />
+    </macro>
+    <macro name="tmp">
+      <action id=":plugin.actions.paredit/wrap-paren" />
+      <typing text-keycode="61:1;82:0;69:0;86:0;32:0">+rev&amp;#x20;</typing>
+      <action id="MethodDown" />
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+    </macro>
+  </component>
+</application>
